@@ -7,17 +7,9 @@
     "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.production.js --progress"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carlosdlroca/website-template.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/carlosdlroca/website-template/issues"
-  },
-  "homepage": "https://github.com/carlosdlroca/website-template#readme",
   "babel": {
     "presets": [
       "@babel/preset-env"
