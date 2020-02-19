@@ -44,7 +44,7 @@ module.exports = {
             new TerserPlugin(),
             new HtmlWebpackPlugin({
                 title: "Production Mode",
-                templates: path.join(__dirname, "public/template.html"),
+                template: path.join(__dirname, "public/template.html"),
                 favicon: path.join(__dirname, "public/icon.svg"),
                 minify: {
                     removeAttributeQuotes: true,
