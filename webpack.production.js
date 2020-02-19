@@ -23,8 +23,8 @@ module.exports = {
                 use: ["babel-loader"]
             },
             {
-                test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader"]
+                test: /\.scss$/,
+                use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif|webm|mp4)$/,
@@ -64,6 +64,6 @@ module.exports = {
     ],
     resolve: {
         modules: [path.join(__dirname, "src"), "node_modules"],
-        extensions: ["*", ".js", ".css"]
+        extensions: ["*", ".js"]
     }
 };
