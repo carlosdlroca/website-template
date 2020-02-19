@@ -1,7 +1,7 @@
 var path = require("path"),
     TerserPlugin = require("terser-webpack-plugin"),
     HtmlWebpackPlugin = require("html-webpack-plugin"),
-    CleanWebpackPlugin = require("clean-webpack-plugin"),
+    { CleanWebpackPlugin } = require("clean-webpack-plugin"),
     MiniCssExtractPlugin = require("mini-css-extract-plugin"),
     OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
@@ -12,7 +12,7 @@ module.exports = {
     },
     output: {
         filename: "main-[contentHash].bundle.js",
-        output: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "build"),
         publicPath: "/"
     },
     module: {
