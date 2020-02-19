@@ -12,7 +12,7 @@ Click the "Use this template" button at the top or below to generate a template 
 
 ### Stylesheets
 
-There are some placeholder files in the **/layout**, **/pages**, **/themes**, and **/vendors** within the sass directory. Replace those with your own files or delete those directories if you dont use them.
+There are some placeholder files in the **/layout**, **/pages**, **/themes**, and **/vendors** folders within the sass directory. Replace those with your own files or delete those directories if you dont use them.
 
 #### CSS only
 
