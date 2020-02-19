@@ -50,15 +50,15 @@ module.exports = {
                     removeAttributeQuotes: true,
                     collapseWhitespace: true,
                     removeComments: true,
-                    removeEmptyAttributes=true,
-                    removeTagWhitespace=true
-                } 
+                    removeEmptyAttributes: true,
+                    removeTagWhitespace: true
+                }
             })
         ]
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: '[name].[contentHash].css'
+            filename: "[name].[contentHash].css"
         }),
         new CleanWebpackPlugin()
     ],
