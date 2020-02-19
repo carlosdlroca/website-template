@@ -4,11 +4,7 @@
 
 ## Generate Template
 
-Click the "Use this template" button at the top or below to generate a template of this repository
-
-<button style="background:#2CBE4E; border:none; padding: 9px; border-radius: 5px">
-    <a href="/carlosdlroca/website-template/generate" style="color: white">Use This template</a>
-</button>
+Click the "Use this template" button at the top to generate a template of this repository
 
 ### Stylesheets
 
