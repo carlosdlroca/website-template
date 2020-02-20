@@ -24,7 +24,9 @@ HtmlWebpackPlugin({
     // ... other options
     favicon: path.join(__dirname, "public/icon.svg")
 });
-/*----------------------------------------------------*/
+```
+
+```javascript
 // to
 HtmlWebpackPlugin({
     // ... other options
